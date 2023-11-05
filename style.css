@@ -1,15 +1,8 @@
-* {
+*{
     box-sizing: border-box;
 }
 
-.light {
-    display: block;
-}
-.dark {
-    display: none;
-}
-
-body {
+body{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -20,10 +13,12 @@ body {
 }
 
 @media all and (prefers-color-scheme: dark) {
-    .light{
-        display: none;
-    }
     .dark {
         display: block;
     }
+
+    .light {
+        display: none;
+    }
+
 }

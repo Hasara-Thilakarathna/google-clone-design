@@ -128,10 +128,15 @@
     align-items: center;
 }
 
+
 .google-logo {
     height: 92px;
     position: relative;
-    margin-top: auto;
+    margin-top: auto; 
+}
+
+.dark {
+    display: none;
 }
 
 .search-area {
@@ -585,9 +590,6 @@ form {
         border-style: solid;
     }
 
-    .google-logo img {
-        color: white;
-    }
 
     .link-1 {
         background-color: #8ab4f8;
