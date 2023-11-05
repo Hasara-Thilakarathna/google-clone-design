@@ -522,3 +522,97 @@ form {
 .r-item:hover {
     text-decoration: underline;
 }
+
+
+@media all and (prefers-color-scheme: dark) {
+    :root {
+        background-color: #202124;
+        color: white;
+    }
+
+
+    .b {
+        background-color: #303134;
+        border: #303134;
+        color: #e8eaed;
+    }
+
+    .b:hover {
+        background-color: #303134;
+        border: 1px solid #5f6368;
+    }
+
+    .search-box {
+        background-color: #202124;
+        border: 1px solid #5f6368;
+    }
+
+    .google-logo img {
+        content: url("/img/googlelogo_light_color_272x92dp.png");
+    }
+
+    .footer {
+        background-color: #171717;
+    }
+
+    .f1 {
+        border-bottom: 1px solid #3c4043;
+    }
+
+    .lan a {
+        color: #8ab4f8;
+    }
+
+    .lan {
+        color: #bdc1c6;
+    }
+
+    .search-box:hover {
+        background-color: #3c4043;
+    }
+
+    .tooltip-text1 {
+        background-color: #303134;
+        border: 1px solid white;
+        color: white;
+    }
+
+    .tooltip-text2 {
+        color: rgb(255, 255, 255, .8);
+        background-color: #303134;
+    }
+
+    .tooltip-text2::after {
+        border-color: transparent transparent rgb(255, 255, 255, .8) transparent;
+        border-style: solid;
+    }
+
+    .google-logo img {
+        color: white;
+    }
+
+    .link-1 {
+        background-color: #8ab4f8;
+        color: #202124;
+    }
+    .link-1:hover {
+        background-color:#a8c7fa ;
+    }
+
+    .tooltip-text3 {
+        background-color: rgb(49, 50, 53,.5);
+        border: transparent;
+    }
+    .link-svg {
+        color: white;
+    }
+    .f1{
+        color: #9aa0a6;
+    }
+
+    .l-item,
+    .r-item {
+        color: #9aa0a6;
+    }
+
+}
