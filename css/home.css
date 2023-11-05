@@ -616,3 +616,9 @@ form {
     }
 
 }
+
+@media all and (min-width: 575px) and (max-width: 768px) {
+    .f2 {
+        justify-content: space-evenly;
+    }
+}
