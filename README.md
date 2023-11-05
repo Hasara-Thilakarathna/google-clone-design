@@ -23,7 +23,6 @@ The Google Clone Design project is a replica of Google's search engine user inte
 - CSS 3
 
 
-
 ### Features
 
 <a name="features"></a>
@@ -46,9 +45,9 @@ The Google Clone Design project includes the following key features:
 <a name="installation"></a>
 To set up the Google Clone Design project, follow these steps:
 
-1. Clone the repository: 'git clone https://github.com/Hasara-Thilakarathna/google-clone-design.git'
-2. Navigate to the project folder: 'cd google-clone-design'
-3. Open the 'index.html' file in your preferred web browser to view the project.
+1. Clone the repository: `git clone https://github.com/Hasara-Thilakarathna/google-clone-design.git`
+2. Navigate to the project folder: `cd google-clone-design`
+3. Open the `index.htm` file in your preferred web browser to view the project.
 
 ### Usage
 
