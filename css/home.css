@@ -347,3 +347,49 @@ form {
 .lan a:hover {
     text-decoration: underline;
 }
+
+.footer {
+    background-color: #f2f2f2;
+    height: 94px;
+    flex-shrink: 0;
+}
+
+.r-item,
+.l-item {
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.right,
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.f2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 46px;
+}
+
+.f1 {
+    display: flex;
+    padding: 15px 30px;
+    color: #70757a;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    height: 48px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.l-item:hover,
+.r-item:hover {
+    text-decoration: underline;
+}
