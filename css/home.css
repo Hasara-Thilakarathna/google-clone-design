@@ -547,9 +547,7 @@ form {
         border: 1px solid #5f6368;
     }
 
-    .google-logo img {
-        content: url("/img/googlelogo_light_color_272x92dp.png");
-    }
+   
 
     .footer {
         background-color: #171717;
