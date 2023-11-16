@@ -622,3 +622,25 @@ form {
         justify-content: space-evenly;
     }
 }
+
+@media all and (max-width: 680px) {
+    #bottom-row{
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+    }
+
+    .search {
+        display: flex;
+        width: 90%;
+    }
+
+    .search div:first-child,
+    .search div:nth-child(3),
+    .search div:last-child {
+        width: 7%;
+    }
+
+    .search div:nth-child(2) {
+        width: 75%;
+    } 
+}
