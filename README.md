@@ -29,7 +29,7 @@ The Google Clone Design project is a replica of Google's search engine user inte
 The Google Clone Design project includes the following key features:
 
 - **Search bar:** A prominent search bar with auto-suggestions as you type.
-- **Responsive Design:** The user interface adapts to laptops and tablets.
+- **Responsive Design:** The user interface adapts to laptops, tablets and mobile phones.
 - **Minimalist Aesthetics:** Clean design with a focus on usability and readability.
 - **Support system dark theme:** Adjust both light and dark theme according to device theme.
 
