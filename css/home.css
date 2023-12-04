@@ -132,7 +132,7 @@
 .google-logo {
     height: 92px;
     position: relative;
-    margin-top: auto; 
+    margin-top: auto;
 }
 
 .dark {
@@ -552,7 +552,7 @@ form {
         border: 1px solid #5f6368;
     }
 
-   
+
 
     .footer {
         background-color: #171717;
@@ -595,18 +595,21 @@ form {
         background-color: #8ab4f8;
         color: #202124;
     }
+
     .link-1:hover {
-        background-color:#a8c7fa ;
+        background-color: #a8c7fa;
     }
 
     .tooltip-text3 {
-        background-color: rgb(49, 50, 53,.5);
+        background-color: rgb(49, 50, 53, .5);
         border: transparent;
     }
+
     .link-svg {
         color: white;
     }
-    .f1{
+
+    .f1 {
         color: #9aa0a6;
     }
 
@@ -617,30 +620,64 @@ form {
 
 }
 
-@media all and (min-width: 575px) and (max-width: 768px) {
-    .f2 {
-        justify-content: space-evenly;
-    }
-}
 
-@media all and (max-width: 680px) {
-    #bottom-row{
-        justify-content: space-evenly;
-        flex-flow: row wrap;
+
+
+@media all and (max-width: 425px) {
+
+
+    .footer {
+        height: 180px;
+        width: auto;
+    }
+
+    .language-area {
+        height: 2181px;
     }
 
     .search {
         display: flex;
         width: 90%;
+        
+    }
+    .text-area{
+        width: 50%;
     }
 
-    .search div:first-child,
-    .search div:nth-child(3),
-    .search div:last-child {
-        width: 7%;
+    .search-box {
+        width: 90%;
+        right: 5%;
+    }
+    .buttons {
+        width: 60%;
+    }
+    .center{
+        width: 100%;
+    }
+    .buttons{
+        width: 100%;
+    }
+    .content-area{
+        width: 90%;
+    }
+   
+
+    .logo {
+        width: auto;
     }
 
-    .search div:nth-child(2) {
-        width: 75%;
-    } 
+    .logo {
+        height: 290px;
+        position: relative;
+    }
+
+    .light {
+        transform: scale(.8);
+    }
+
 }
+
+
+
+
+
